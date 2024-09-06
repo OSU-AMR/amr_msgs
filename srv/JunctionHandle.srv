@@ -1,0 +1,3 @@
+---
+int8 turn_direction  # -1: left turn, 0: no turn, 1: right turn, 2: 180 turn
+bool do_action
