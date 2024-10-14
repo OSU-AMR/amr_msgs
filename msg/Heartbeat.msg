@@ -1,3 +1,5 @@
+string robot_name
+
 float32 battery_voltage
 
 bool left_esc_connected
