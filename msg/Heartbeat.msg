@@ -1,4 +1,4 @@
-string robot_name
+string robot_name #this should be the same as the robots namespace
 
 float32 battery_voltage
 
