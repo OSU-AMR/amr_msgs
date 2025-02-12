@@ -1,0 +1,6 @@
+string starting_location
+string ending_location
+
+---
+
+PathStep[] pathlocations
