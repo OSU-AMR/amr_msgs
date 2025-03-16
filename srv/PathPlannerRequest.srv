@@ -1,6 +1,10 @@
+#data sent to path planner
 string starting_location
+string starting_orientation
 string ending_location
 
 ---
 
-PathStep[] pathlocations
+#data sent back to client
+int32[] path_routes
+int32 num_routes
