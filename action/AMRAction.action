@@ -1,0 +1,9 @@
+# request
+float32 param1
+
+---
+# result
+uint8 success
+
+---
+# feedback

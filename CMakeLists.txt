@@ -16,11 +16,13 @@ find_package(rosidl_default_generators REQUIRED)
 # Grab all message files 
 file(GLOB msg_sources RELATIVE ${PROJECT_SOURCE_DIR} msg/*.msg)
 file(GLOB srv_sources RELATIVE ${PROJECT_SOURCE_DIR} srv/*.srv)
+file(GLOB srv_sources RELATIVE ${PROJECT_SOURCE_DIR} action/*.action)
 
 #generate messages
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_sources}
   ${srv_sources}
+  ${action_sources}
   DEPENDENCIES std_msgs
 )
 ament_export_dependencies(rosidl_default_runtime)
