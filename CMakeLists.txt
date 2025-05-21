@@ -16,7 +16,7 @@ find_package(rosidl_default_generators REQUIRED)
 # Grab all message files 
 file(GLOB msg_sources RELATIVE ${PROJECT_SOURCE_DIR} msg/*.msg)
 file(GLOB srv_sources RELATIVE ${PROJECT_SOURCE_DIR} srv/*.srv)
-file(GLOB srv_sources RELATIVE ${PROJECT_SOURCE_DIR} action/*.action)
+file(GLOB action_sources RELATIVE ${PROJECT_SOURCE_DIR} action/*.action)
 
 #generate messages
 rosidl_generate_interfaces(${PROJECT_NAME}

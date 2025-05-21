@@ -1,5 +1,9 @@
 # request
-float32 param1
+float32[] params
+
+string context
+
+uint8 action_code
 
 ---
 # result
@@ -7,3 +11,4 @@ uint8 success
 
 ---
 # feedback
+uint8 error_state

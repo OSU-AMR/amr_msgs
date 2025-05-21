@@ -1,6 +1,6 @@
 #data sent to path planner
 string starting_location
-string starting_orientation
+uint8 starting_orientation
 string ending_location
 
 ---

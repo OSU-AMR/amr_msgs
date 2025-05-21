@@ -1,0 +1,10 @@
+#service to handle state change requested
+
+#the states requested to travel to
+uint8[] requested_states
+string context
+
+---
+
+#the state the state machine will travel to
+uint8 accepted_state
