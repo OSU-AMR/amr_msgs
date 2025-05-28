@@ -1,7 +1,14 @@
 #data sent to path planner
+
+#option 1, route from location
 string starting_location
 uint8 starting_orientation
+
+# Option 2, route from tag code
+string tag_code
+
 string ending_location
+
 
 ---
 

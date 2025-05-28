@@ -9,6 +9,9 @@ uint8 action_code
 # result
 uint8 success
 
+uint8 action_final_stage
+
+
 ---
 # feedback
 uint8 error_state
