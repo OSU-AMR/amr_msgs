@@ -1,0 +1,12 @@
+# request
+string[] destination_tags
+
+---
+# result
+uint8 success
+
+---
+# feedback
+int8 threads_in_use
+
+float32 percent_complete
