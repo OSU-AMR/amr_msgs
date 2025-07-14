@@ -1,0 +1,5 @@
+
+#request sent to retirieve the amr's current state
+
+---
+uint8 current_state

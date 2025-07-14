@@ -1,0 +1,6 @@
+
+#request sent to retirieve the last tag the amr has read
+
+---
+string last_rfid
+builtin_interfaces/Time stamp
