@@ -1,15 +1,19 @@
 #data sent to path planner
 
-#option 1, route from location
+#option 1 Starting, route from location
 string starting_location
 uint8 starting_orientation
 
-# Option 2, route from tag code
+# Option 2 Starting, route from tag code
+#DEFAULT
 string tag_code
 
+#Option 1 Ending, route to node by name
 string ending_location
 
-
+#Option 2 Ending, route to node by tag code (note this will not route to a specific orientation, just a node or destination)
+#DEFAULT
+string ending_tag_code
 ---
 
 #data sent back to client
