@@ -5,4 +5,4 @@ builtin_interfaces/Time stamp
 int8 robot_index
 
 #tour
-int16[] tour
+string[] tour
