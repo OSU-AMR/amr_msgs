@@ -1,0 +1,5 @@
+string tile_name
+string requester
+uint8 priority
+---
+bool success
