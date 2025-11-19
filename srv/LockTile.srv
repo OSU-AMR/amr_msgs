@@ -1,4 +1,4 @@
-string tile_name
+string tag_name
 string requester
 uint8 priority
 ---
