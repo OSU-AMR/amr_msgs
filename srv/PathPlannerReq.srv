@@ -19,3 +19,4 @@ string ending_tag_code
 #data sent back to client
 int32[] path_routes
 int32 num_routes
+string[] path_tags
