@@ -1,5 +1,5 @@
 #data sent to path planner
-
+int32 robot_index
 #option 1 Starting, route from location
 string starting_location
 uint8 starting_orientation
@@ -18,5 +18,6 @@ string ending_tag_code
 
 #data sent back to client
 int32[] path_routes
+int32[] route_ids
 int32 num_routes
 string[] path_tags
